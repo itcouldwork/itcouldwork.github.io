@@ -1,8 +1,8 @@
 ---
 author: Spiced Academy
-title: Pepper Scatter
+title: True Rosemary
 subtitle: Final Project
-date: 22.11.2024 - 19.12.2024
+date: 06.01.2025 - 03.02.2025
 theme: moon # https://revealjs.com/themes/
 transition: concave # https://revealjs.com/transitions/
 # see all the options here: https://revealjs.com/config/
@@ -34,23 +34,14 @@ autoPlayMedia: true
 ### 📆
 
 ::: incremental
-- Graduation: Thursday  <font class="highlight">19.12.2024</font> at <font class="highlight">14:00PM</font>
+- Graduation: Monday  <font class="highlight">03.02.2025</font> at <font class="highlight">15:00 PM</font>
 - Total time: 19 days + graduation day
 - Stand-Up Meetings on Campus 
-    - Thu <font class="highlight">28.11.</font> at <font class="highlight">10:00</font>
-    - Thu <font class="highlight">05.12.</font> at <font class="highlight">14:00</font>
-    - Wed <font class="highlight">11.12.</font> at <font class="highlight">10:00</font>
-    - Wed <font class="highlight">18.12.</font> at <font class="highlight">10:00</font>
+    - Fri <font class="highlight">10.01.</font> at <font class="highlight">10:00</font>
+    - Thu <font class="highlight">16.01</font> at <font class="highlight">10:00</font>
+    - Thu <font class="highlight">23.01</font> at <font class="highlight">10:00</font>
+    - Fri <font class="highlight">31.01</font> at <font class="highlight">10:00</font>
 - besides you can decide working on-site or off-site
-:::
-
-### 📆
-
-::: incremental 
-- Extra Lectures (optional)
-    - Mo <font class="highlight">25.11. </font> at <font class="highlight">10:00</font> : Plotly Express & Plotly Dash
-    - Tue <font class="highlight">26.12.</font> at <font class="highlight">13:30</font> : Streamlit
-    - Wed <font class="highlight">27.11.</font> at <font class="highlight">10:00</font> : SQL Window Functions
 :::
 
 # Guidelines / Tips for Final Project Presentations
@@ -59,7 +50,6 @@ autoPlayMedia: true
 
 
 - **7-8** minutes followed by Q&A (10 min MAX)
-- (17 people x 10 minutes) + (2 breaks x 10 minutes) = 3 hours 10 minutes
 - and it always gets a bit longer...
 
 

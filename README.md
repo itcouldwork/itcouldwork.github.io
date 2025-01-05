@@ -5,7 +5,7 @@
 - Run to convert your markdown `slides.md` into a html file `slides.html`:
 
 ```shell
-pandoc -t revealjs slides.md -o slides.html  \
+pandoc -t revealjs slides.md -o index.html  \
 	--mathjax \
 	--standalone \
 	--css=styles.css \
@@ -13,10 +13,11 @@ pandoc -t revealjs slides.md -o slides.html  \
 ```
 
 ```shell
-pandoc -t revealjs slides.md -o slides.html  ^
+pandoc -t revealjs slides.md -o index.html  ^
 	--mathjax ^
 	--standalone ^
 	--css=styles.css ^
 	--css=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css
 ```
 
+In order to host the presentation online check out https://pages.github.com/
