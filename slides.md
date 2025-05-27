@@ -1,8 +1,8 @@
 ---
 author: Spiced Academy
-title: Pepper Scatter
+title: Vanilla Queries
 subtitle: Final Project
-date: 22.11.2024 - 19.12.2024
+date: 23.03.2025 - 25.06.2025
 theme: moon # https://revealjs.com/themes/
 transition: concave # https://revealjs.com/transitions/
 # see all the options here: https://revealjs.com/config/
@@ -26,7 +26,7 @@ autoPlayMedia: true
 - Only if you want to...
 - There will be no grades...
   but certain expectations:
-- follow the [data analytics workflow](http://spiced-12-weeks-da.s3-website.eu-central-1.amazonaws.com/images/da_workflow.png) or come up with you own data analytics related approach
+- follow the [data analytics workflow](assets/da_workflow.png) or come up with you own data analytics related approach
 :::
 
 # Timeframe 
@@ -34,13 +34,13 @@ autoPlayMedia: true
 ### 📆
 
 ::: incremental
-- Graduation: Thursday  <font class="highlight">19.12.2024</font> at <font class="highlight">14:00PM</font>
-- Total time: 19 days + graduation day
+- Graduation: Wednesday  <font class="highlight">25.06.2025</font> at <font class="highlight">15:00PM</font>
+- Total time: 18 days + graduation day
 - Stand-Up Meetings on Campus 
-    - Thu <font class="highlight">28.11.</font> at <font class="highlight">10:00</font>
-    - Thu <font class="highlight">05.12.</font> at <font class="highlight">14:00</font>
-    - Wed <font class="highlight">11.12.</font> at <font class="highlight">10:00</font>
-    - Wed <font class="highlight">18.12.</font> at <font class="highlight">10:00</font>
+    - Tue <font class="highlight">03.06.</font> at <font class="highlight">10:00</font>
+    - Tue <font class="highlight">10.06.</font> at <font class="highlight">10:00</font>
+    - Mon <font class="highlight">16.06.</font> at <font class="highlight">10:00</font>
+    - Tue <font class="highlight">24.06.</font> at <font class="highlight">10:00</font>
 - besides you can decide working on-site or off-site
 :::
 
@@ -48,20 +48,22 @@ autoPlayMedia: true
 
 ::: incremental 
 - Extra Lectures (optional)
-    - Mo <font class="highlight">25.11. </font> at <font class="highlight">10:00</font> : Plotly Express & Plotly Dash
-    - Tue <font class="highlight">26.12.</font> at <font class="highlight">13:30</font> : Streamlit
-    - Wed <font class="highlight">27.11.</font> at <font class="highlight">10:00</font> : SQL Window Functions
+    - Wed <font class="highlight">04.06. </font> at <font class="highlight">10:00</font> : Plotly (online)
+    - Thu <font class="highlight">05.06.</font> at <font class="highlight">13:30</font> : Streamlit
+    - Fr <font class="highlight">06.06.</font> at <font class="highlight">13:30</font> : SQL Window Functions
+    - Wed <font class="highlight">11.06.</font> at <font class="highlight">13:30</font> : Postgres Local Server
 :::
 
 # Guidelines / Tips for Final Project Presentations
 
 ### ⏱
 
-
+::: incremental 
 - **7-8** minutes followed by Q&A (10 min MAX)
-- (17 people x 10 minutes) + (2 breaks x 10 minutes) = 3 hours 10 minutes
+- (4 people x 10 minutes) + (1 break x 10 minutes) = 50 minutes
 - and it always gets a bit longer...
-
+- target: 1.5 hours 
+:::
 
 ### 😀
 
@@ -165,9 +167,9 @@ autoPlayMedia: true
 
 ### Usage
 
-OS
+MacOS
 ```shell
-pandoc -t revealjs slides.md -o slides.html  \
+pandoc -t revealjs slides.md -o index.html  \
 	--mathjax \
 	--standalone \
 	--css=styles.css \
@@ -175,7 +177,7 @@ pandoc -t revealjs slides.md -o slides.html  \
 ```
 WINDOWS
 ```shell
-pandoc -t revealjs slides.md -o slides.html  ^
+pandoc -t revealjs slides.md -o index.html  ^
 	--mathjax ^
 	--standalone ^
 	--css=styles.css ^
