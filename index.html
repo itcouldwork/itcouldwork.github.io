@@ -8,8 +8,8 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reset.css">
-  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reveal.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^5/dist/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^5/dist/reveal.css">
   <style>
     .reveal .sourceCode {  /* see #7635 */
       overflow: visible;
@@ -19,13 +19,17 @@
     div.columns{display: flex; gap: min(4vw, 1.5em);}
     div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
     ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
       width: 0.8em;
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
     }
     /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
     pre > code.sourceCode { white-space: pre; position: relative; }
     pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
     pre > code.sourceCode > span:empty { height: 1.2em; }
@@ -90,7 +94,7 @@
     code span.vs { color: #4070a0; } /* VerbatimString */
     code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/moon.css" id="theme">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^5/dist/theme/moon.css" id="theme">
   <link rel="stylesheet" href="styles.css"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
 </head>
@@ -113,7 +117,6 @@ class="title-slide slide level1">
 </section>
 <section id="section" class="slide level3">
 <h3>🏁</h3>
-<div>
 <ul>
 <li class="fragment">It is a SHOWCASE of what you have learned</li>
 <li class="fragment">No need for ground-breaking discoveries or
@@ -126,7 +129,6 @@ href="http://spiced-12-weeks-da.s3-website.eu-central-1.amazonaws.com/images/da_
 analytics workflow</a> or come up with you own data analytics related
 approach</li>
 </ul>
-</div>
 </section></section>
 <section>
 <section id="timeframe" class="title-slide slide level1">
@@ -135,7 +137,6 @@ approach</li>
 </section>
 <section id="section-1" class="slide level3">
 <h3>📆</h3>
-<div>
 <ul>
 <li class="fragment">Graduation: Thursday
 <font class="highlight">19.12.2024</font> at
@@ -155,11 +156,9 @@ approach</li>
 <li class="fragment">besides you can decide working on-site or
 off-site</li>
 </ul>
-</div>
 </section>
 <section id="section-2" class="slide level3">
 <h3>📆</h3>
-<div>
 <ul>
 <li class="fragment">Extra Lectures (optional)
 <ul>
@@ -172,7 +171,6 @@ Dash</li>
 <font class="highlight">10:00</font> : SQL Window Functions</li>
 </ul></li>
 </ul>
-</div>
 </section></section>
 <section>
 <section id="guidelines-tips-for-final-project-presentations"
@@ -207,7 +205,6 @@ very brief description of what your project is about</li>
 </section>
 <section id="section-6" class="slide level3">
 <h3>💼</h3>
-<div>
 <ul>
 <li class="fragment">Start with <strong>why</strong>, a problem,
 questions…</li>
@@ -218,7 +215,6 @@ are sufficient</li>
 <li class="fragment">You don’t need to talk about everything you did…
 pick the best parts!</li>
 </ul>
-</div>
 </section>
 <section id="section-7" class="slide level3">
 <h3>🚫</h3>
@@ -259,17 +255,14 @@ readablity, resolution etc.)</li>
 </section>
 <section id="section-12" class="slide level3">
 <h3>🙊</h3>
-<div>
 <ul>
 <li class="fragment">mistakes are not a problem</li>
 <li class="fragment">just keep going</li>
 <li class="fragment"><strong>DO NOT apologize</strong></li>
 </ul>
-</div>
 </section>
 <section id="section-13" class="slide level3">
 <h3>🤖</h3>
-<div>
 <ul>
 <li class="fragment">focus on results</li>
 <li class="fragment">focus on showing off the features that work</li>
@@ -279,7 +272,6 @@ finish</li>
 <li class="fragment">…it is completely fine to mention it as features
 you’d like to add in the future.</li>
 </ul>
-</div>
 </section>
 <section id="section-14" class="slide level3">
 <h3>⁉️</h3>
@@ -345,19 +337,19 @@ webbrowser</li>
 <h4 id="test-the-new-headline">Test the new headline</h4>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th style="text-align: left;"></th>
 <th style="text-align: center;">A</th>
 <th style="text-align: center;">B</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td style="text-align: left;"><i class="fas fa-clock"></i></td>
 <td style="text-align: center;">100</td>
 <td style="text-align: center;">400</td>
 </tr>
-<tr class="even">
+<tr>
 <td style="text-align: left;"><i class="fas fa-plus"></i></td>
 <td style="text-align: center;">200</td>
 <td style="text-align: center;">300n</td>
@@ -372,13 +364,11 @@ webbrowser</li>
 </section>
 <section id="fragments" class="slide level3">
 <h3>Fragments</h3>
-<div>
 <ul>
 <li class="fragment">Eat spaghetti</li>
 <li class="fragment">Drink wine</li>
 <li class="fragment">Do something else</li>
 </ul>
-</div>
 </section>
 <section id="plots" class="slide level3">
 <h3>Plots</h3>
@@ -411,19 +401,19 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a hr
 class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df.to_markdown())   </span></code></pre></div>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th style="text-align: right;"></th>
 <th style="text-align: left;">animal_1</th>
 <th style="text-align: left;">animal_2</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td style="text-align: right;">0</td>
 <td style="text-align: left;">elk</td>
 <td style="text-align: left;">dog</td>
 </tr>
-<tr class="even">
+<tr>
 <td style="text-align: right;">1</td>
 <td style="text-align: left;">pig</td>
 <td style="text-align: left;">quetzal</td>
@@ -476,13 +466,13 @@ Project Ideas</a></li>
     </div>
   </div>
 
-  <script src="https://unpkg.com/reveal.js@^4//dist/reveal.js"></script>
+  <script src="https://unpkg.com/reveal.js@^5/dist/reveal.js"></script>
 
   <!-- reveal.js plugins -->
-  <script src="https://unpkg.com/reveal.js@^4//plugin/notes/notes.js"></script>
-  <script src="https://unpkg.com/reveal.js@^4//plugin/search/search.js"></script>
-  <script src="https://unpkg.com/reveal.js@^4//plugin/zoom/zoom.js"></script>
-  <script src="https://unpkg.com/reveal.js@^4//plugin/math/math.js"></script>
+  <script src="https://unpkg.com/reveal.js@^5/plugin/notes/notes.js"></script>
+  <script src="https://unpkg.com/reveal.js@^5/plugin/search/search.js"></script>
+  <script src="https://unpkg.com/reveal.js@^5/plugin/zoom/zoom.js"></script>
+  <script src="https://unpkg.com/reveal.js@^5/plugin/math/math.js"></script>
 
   <script>
 
